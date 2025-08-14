@@ -1,0 +1,12 @@
+[project]
+name = "nuxgame-test-task"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "django==4.2.13",
+    "djangorestframework==3.15.1",
+    "gunicorn==22.0.0",
+    "python-dotenv==1.0.1",
+]
